@@ -11,6 +11,7 @@
   inputs.src-easy_sqlite3-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-easy_sqlite3-v0_1_2.owner = "codehz";
   inputs.src-easy_sqlite3-v0_1_2.repo  = "easy_sqlite3";
+  inputs.src-easy_sqlite3-v0_1_2.dir   = "";
   inputs.src-easy_sqlite3-v0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

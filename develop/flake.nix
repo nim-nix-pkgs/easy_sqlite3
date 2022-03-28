@@ -11,6 +11,7 @@
   inputs.src-easy_sqlite3-develop.ref   = "refs/heads/develop";
   inputs.src-easy_sqlite3-develop.owner = "codehz";
   inputs.src-easy_sqlite3-develop.repo  = "easy_sqlite3";
+  inputs.src-easy_sqlite3-develop.dir   = "";
   inputs.src-easy_sqlite3-develop.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
